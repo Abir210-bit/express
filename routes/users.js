@@ -24,7 +24,6 @@ router.get('/', function(req, res, next) {
   
 });
 
-
 function horsservice(){
   const birthday = new Date();
   const day1 = birthday.getDay();
